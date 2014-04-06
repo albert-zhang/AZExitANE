@@ -13,10 +13,6 @@ package com.landinggearup.ane.exit
 		{
 			super();
 			
-			if((! this.isIOS()) && (! this.isAndroid())){
-				throw new Error("Unsupported platform");
-			}
-			
 			_extContext = ExtensionContext.createExtensionContext("com.landinggearup.ane.exit", "");
 			
 			if(! _extContext){
@@ -37,6 +33,9 @@ package com.landinggearup.ane.exit
 				_extContext.call("AZExitANEExit", code);
 				
 			}else if(this.isAndroid()){
+				NativeApplication.nativeApplication.exit(code);
+				
+			}else{
 				NativeApplication.nativeApplication.exit(code);
 				
 			}

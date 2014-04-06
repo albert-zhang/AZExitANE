@@ -1,5 +1,6 @@
 .DS_Store
 bin/
+bin-debug/
 .settings/
 xcuserdata/
 xcshareddata/
