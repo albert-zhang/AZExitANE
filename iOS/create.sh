@@ -38,7 +38,7 @@ universlBuildPath="${universalPath}/lib${PRODUCT_NAME}-universal.a"
 lipo -create $copiedArmBuildPath $copiedi386BuildPath -output $universlBuildPath
 
 echo " * copying universal build to project folder"
-cp -f $universlBuildPath ${PROJECT_DIR}
+cp -f $universlBuildPath ${PROJECT_DIR}/bin/
 
 #universalIncludePath="${universalPath}/include"
 #if [ -d $universalIncludePath ]; then

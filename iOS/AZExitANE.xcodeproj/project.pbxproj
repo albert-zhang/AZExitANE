@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2746773B18F16B7C0002DDB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746773A18F16B7C0002DDB6 /* Foundation.framework */; };
+		2746774218F16B7C0002DDB6 /* AZExitANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 2746774118F16B7C0002DDB6 /* AZExitANE.m */; };
+		2746774918F16B7C0002DDB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746774818F16B7C0002DDB6 /* XCTest.framework */; };
+		2746774A18F16B7C0002DDB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746773A18F16B7C0002DDB6 /* Foundation.framework */; };
+		2746774C18F16B7C0002DDB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746774B18F16B7C0002DDB6 /* UIKit.framework */; };
+		2746774F18F16B7C0002DDB6 /* libAZExitANE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2746773718F16B7C0002DDB6 /* libAZExitANE.a */; };
+		2746775518F16B7C0002DDB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2746775318F16B7C0002DDB6 /* InfoPlist.strings */; };
+		2746775718F16B7C0002DDB6 /* AZExitANETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2746775618F16B7C0002DDB6 /* AZExitANETests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2746774D18F16B7C0002DDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2746772F18F16B7B0002DDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2746773618F16B7B0002DDB6;
+			remoteInfo = AZExitANE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2746773518F16B7B0002DDB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2746773718F16B7C0002DDB6 /* libAZExitANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAZExitANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2746773A18F16B7C0002DDB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2746773E18F16B7C0002DDB6 /* AZExitANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZExitANE-Prefix.pch"; sourceTree = "<group>"; };
+		2746774118F16B7C0002DDB6 /* AZExitANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZExitANE.m; sourceTree = "<group>"; };
+		2746774718F16B7C0002DDB6 /* AZExitANETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZExitANETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2746774818F16B7C0002DDB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2746774B18F16B7C0002DDB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2746775218F16B7C0002DDB6 /* AZExitANETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZExitANETests-Info.plist"; sourceTree = "<group>"; };
+		2746775418F16B7C0002DDB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2746775618F16B7C0002DDB6 /* AZExitANETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZExitANETests.m; sourceTree = "<group>"; };
+		2746776018F16C470002DDB6 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = "../../../../../../Applications/Adobe Flash Builder 4.7/sdks/4.6/include/FlashRuntimeExtensions.h"; sourceTree = "<group>"; };
+		2746776518F171290002DDB6 /* create.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = create.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2746773418F16B7B0002DDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2746773B18F16B7C0002DDB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2746774418F16B7C0002DDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2746774918F16B7C0002DDB6 /* XCTest.framework in Frameworks */,
+				2746774F18F16B7C0002DDB6 /* libAZExitANE.a in Frameworks */,
+				2746774C18F16B7C0002DDB6 /* UIKit.framework in Frameworks */,
+				2746774A18F16B7C0002DDB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2746772E18F16B7B0002DDB6 = {
+			isa = PBXGroup;
+			children = (
+				2746776518F171290002DDB6 /* create.sh */,
+				2746773C18F16B7C0002DDB6 /* AZExitANE */,
+				2746775018F16B7C0002DDB6 /* AZExitANETests */,
+				2746773918F16B7C0002DDB6 /* Frameworks */,
+				2746773818F16B7C0002DDB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2746773818F16B7C0002DDB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2746773718F16B7C0002DDB6 /* libAZExitANE.a */,
+				2746774718F16B7C0002DDB6 /* AZExitANETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2746773918F16B7C0002DDB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2746773A18F16B7C0002DDB6 /* Foundation.framework */,
+				2746774818F16B7C0002DDB6 /* XCTest.framework */,
+				2746774B18F16B7C0002DDB6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2746773C18F16B7C0002DDB6 /* AZExitANE */ = {
+			isa = PBXGroup;
+			children = (
+				2746776018F16C470002DDB6 /* FlashRuntimeExtensions.h */,
+				2746774118F16B7C0002DDB6 /* AZExitANE.m */,
+				2746773D18F16B7C0002DDB6 /* Supporting Files */,
+			);
+			path = AZExitANE;
+			sourceTree = "<group>";
+		};
+		2746773D18F16B7C0002DDB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2746773E18F16B7C0002DDB6 /* AZExitANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2746775018F16B7C0002DDB6 /* AZExitANETests */ = {
+			isa = PBXGroup;
+			children = (
+				2746775618F16B7C0002DDB6 /* AZExitANETests.m */,
+				2746775118F16B7C0002DDB6 /* Supporting Files */,
+			);
+			path = AZExitANETests;
+			sourceTree = "<group>";
+		};
+		2746775118F16B7C0002DDB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2746775218F16B7C0002DDB6 /* AZExitANETests-Info.plist */,
+				2746775318F16B7C0002DDB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2746773618F16B7B0002DDB6 /* AZExitANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2746775A18F16B7C0002DDB6 /* Build configuration list for PBXNativeTarget "AZExitANE" */;
+			buildPhases = (
+				2746773318F16B7B0002DDB6 /* Sources */,
+				2746773418F16B7B0002DDB6 /* Frameworks */,
+				2746773518F16B7B0002DDB6 /* CopyFiles */,
+				2746776318F16FB90002DDB6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZExitANE;
+			productName = AZExitANE;
+			productReference = 2746773718F16B7C0002DDB6 /* libAZExitANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2746774618F16B7C0002DDB6 /* AZExitANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2746775D18F16B7C0002DDB6 /* Build configuration list for PBXNativeTarget "AZExitANETests" */;
+			buildPhases = (
+				2746774318F16B7C0002DDB6 /* Sources */,
+				2746774418F16B7C0002DDB6 /* Frameworks */,
+				2746774518F16B7C0002DDB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2746774E18F16B7C0002DDB6 /* PBXTargetDependency */,
+			);
+			name = AZExitANETests;
+			productName = AZExitANETests;
+			productReference = 2746774718F16B7C0002DDB6 /* AZExitANETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2746772F18F16B7B0002DDB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Zhang";
+			};
+			buildConfigurationList = 2746773218F16B7B0002DDB6 /* Build configuration list for PBXProject "AZExitANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2746772E18F16B7B0002DDB6;
+			productRefGroup = 2746773818F16B7C0002DDB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2746773618F16B7B0002DDB6 /* AZExitANE */,
+				2746774618F16B7C0002DDB6 /* AZExitANETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2746774518F16B7C0002DDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2746775518F16B7C0002DDB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2746776318F16FB90002DDB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /Users/yzh/Work/AZExitANE/iOS/create.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2746773318F16B7B0002DDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2746774218F16B7C0002DDB6 /* AZExitANE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2746774318F16B7C0002DDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2746775718F16B7C0002DDB6 /* AZExitANETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2746774E18F16B7C0002DDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2746773618F16B7B0002DDB6 /* AZExitANE */;
+			targetProxy = 2746774D18F16B7C0002DDB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2746775318F16B7C0002DDB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2746775418F16B7C0002DDB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2746775818F16B7C0002DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2746775918F16B7C0002DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2746775B18F16B7C0002DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AZExitANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZExitANE/AZExitANE-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2746775C18F16B7C0002DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AZExitANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZExitANE/AZExitANE-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2746775E18F16B7C0002DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZExitANE/AZExitANE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AZExitANETests/AZExitANETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2746775F18F16B7C0002DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZExitANE/AZExitANE-Prefix.pch";
+				INFOPLIST_FILE = "AZExitANETests/AZExitANETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2746773218F16B7B0002DDB6 /* Build configuration list for PBXProject "AZExitANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2746775818F16B7C0002DDB6 /* Debug */,
+				2746775918F16B7C0002DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2746775A18F16B7C0002DDB6 /* Build configuration list for PBXNativeTarget "AZExitANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2746775B18F16B7C0002DDB6 /* Debug */,
+				2746775C18F16B7C0002DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2746775D18F16B7C0002DDB6 /* Build configuration list for PBXNativeTarget "AZExitANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2746775E18F16B7C0002DDB6 /* Debug */,
+				2746775F18F16B7C0002DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2746772F18F16B7B0002DDB6 /* Project object */;
+}
