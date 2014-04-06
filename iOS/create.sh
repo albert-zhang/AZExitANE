@@ -37,6 +37,14 @@ echo " * creating universal build"
 universlBuildPath="${universalPath}/lib${PRODUCT_NAME}-universal.a"
 lipo -create $copiedArmBuildPath $copiedi386BuildPath -output $universlBuildPath
 
+universlBuildFinalPath="${PROJECT_DIR}/bin"
+if [ ! -d $universlBuildFinalPath ]; then
+echo " * creating build universal final path ${universlBuildFinalPath}"
+mkdir -p $universlBuildFinalPath
+else
+echo " * universal build final path exist: ${universlBuildFinalPath}"
+fi
+
 echo " * copying universal build to project folder"
 cp -f $universlBuildPath ${PROJECT_DIR}/bin/
 

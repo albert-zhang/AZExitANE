@@ -49,3 +49,7 @@ void AZExitANEInitializer(void** extDataToSet,
 	*ctxInitializerToSet = &AZExitANEContextInitializer;
 }
 
+void AZExitANEFinalizer(FREContext ctx){
+	
+}
+
