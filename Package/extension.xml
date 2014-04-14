@@ -10,6 +10,9 @@
 				<finalizer>AZExitANEFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment/>
+		</platform>
 		<platform name="default">
 			<applicationDeployment/>
 		</platform>
