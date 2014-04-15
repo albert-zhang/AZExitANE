@@ -13,11 +13,14 @@ package com.landinggearup.ane.exit
 		{
 			super();
 			
-			_extContext = ExtensionContext.createExtensionContext("com.landinggearup.ane.exit", "");
-			
-			if(! _extContext){
-				throw new Error("Cannot create AZExitANE");
+			if(isIOS()){
+				_extContext = ExtensionContext.createExtensionContext("com.landinggearup.ane.exit", "");
+				
+				if(! _extContext){
+					throw new Error("Cannot create AZExitANE");
+				}
 			}
+			
 		}
 		
 		private function isIOS():Boolean{
@@ -31,9 +34,6 @@ package com.landinggearup.ane.exit
 		public function exit(code:int=0):void{
 			if(this.isIOS()){
 				_extContext.call("AZExitANEExit", code);
-				
-			}else if(this.isAndroid()){
-				NativeApplication.nativeApplication.exit(code);
 				
 			}else{
 				NativeApplication.nativeApplication.exit(code);
